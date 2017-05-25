@@ -43,6 +43,8 @@ Perference towards using PCM on GPIO_PIN 21 on pin 40 as does not require blackl
 |Pin 40|Data in|
 
 
+![Raspberry Pi Zero and NeoPixel](https://raw.githubusercontent.com/gloveboxes/rpi_ws281x/master/Raspberry%20Pi%20Zero%20and%20NeoPixel.jpg)
+
 ### main.c
 
 ```c++
