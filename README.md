@@ -45,6 +45,9 @@ Perference towards using PCM on GPIO_PIN 21 on pin 40 as does not require blackl
 |Ground pin 6|GND|
 |Pin 40|Data in|
 
+
+### main.c
+
 ```c++
 // defaults for cmdline options
 #define TARGET_FREQ             WS2811_TARGET_FREQ
@@ -61,7 +64,19 @@ Perference towards using PCM on GPIO_PIN 21 on pin 40 as does not require blackl
 
 ```
 
+### strandtest.py
 
+```python
+
+# LED strip configuration:
+LED_COUNT      = 16      # Number of LED pixels.
+LED_PIN        = 21      # GPIO pin connected to the pixels (must support PWM!).
+LED_FREQ_HZ    = 800000  # LED signal frequency in hertz (usually 800khz)
+LED_DMA        = 5       # DMA channel to use for generating signal (try 5)
+LED_BRIGHTNESS = 20     # Set to 0 for darkest and 255 for brightest
+LED_INVERT     = False   # True to invert the signal (when using NPN transistor level shift)
+
+```
 
 
 
