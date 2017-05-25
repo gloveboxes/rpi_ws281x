@@ -1,4 +1,4 @@
-#Additional notes
+# Additional notes
 
 ## Useful tutorial
 
@@ -32,7 +32,7 @@ Perference towards using PCM on GPIO_PIN 21 on pin 40 as does not require blackl
 
 
 
-# Developer Notess
+# Developer Notes
 
 
 rpi_ws281x
