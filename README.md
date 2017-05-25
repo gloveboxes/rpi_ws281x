@@ -38,14 +38,14 @@ Perference towards using PCM on GPIO_PIN 21 on pin 40 as does not require blackl
 
 ### Setup for 16 NeoPixel Ring
 
-|---|---|
+
 |RPi pin|NeoPixel pin|
 |---|---|
 |3.3v pin 1|5v DC Power|
 |Ground pin 6|GND|
 |Pin 40|Data in|
 
-'''c++
+```c++
 // defaults for cmdline options
 #define TARGET_FREQ             WS2811_TARGET_FREQ
 #define GPIO_PIN                21
@@ -59,7 +59,7 @@ Perference towards using PCM on GPIO_PIN 21 on pin 40 as does not require blackl
 #define LED_COUNT               (WIDTH * HEIGHT)
 
 
-'''
+```
 
 
 
