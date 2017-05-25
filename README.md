@@ -1,6 +1,10 @@
-Useful tutorial
+#Additional notes
+
+## Useful tutorial
 
 [NeoPixels on Raspberry Pi](https://learn.adafruit.com/neopixels-on-raspberry-pi/overview)
+
+## Info on gpio pin to phyical pin usage
 
 Notes from source code main.c
 
@@ -21,12 +25,14 @@ Notes from source code main.c
 
 Perference towards using PCM on GPIO_PIN 21 on pin 40 as does not require blacklisting the Broadcom audio kernel module to make work.
 
+## Raspberry Pi Pinouts
+
+[Raspberry Pi Pinout](https://pinout.xyz)
 
 
 
 
-
-
+# Developer Notess
 
 
 rpi_ws281x
