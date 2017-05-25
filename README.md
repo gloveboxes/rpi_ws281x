@@ -1,4 +1,6 @@
 
+
+
 # Additional notes
 
 ## Useful tutorial
@@ -32,6 +34,33 @@ Perference towards using PCM on GPIO_PIN 21 on pin 40 as does not require blackl
 ## Raspberry Pi Pinouts
 
 [Raspberry Pi Pinout](https://pinout.xyz)
+
+
+### Setup for 16 NeoPixel Ring
+
+|---|---|
+|RPi pin|NeoPixel pin|
+|---|---|
+|3.3v pin 1|5v DC Power|
+|Ground pin 6|GND|
+|Pin 40|Data in|
+
+'''c++
+// defaults for cmdline options
+#define TARGET_FREQ             WS2811_TARGET_FREQ
+#define GPIO_PIN                21
+#define DMA                     5
+//#define STRIP_TYPE            WS2811_STRIP_RGB		// WS2812/SK6812RGB integrated chip+leds
+#define STRIP_TYPE              WS2811_STRIP_GBR		// WS2812/SK6812RGB integrated chip+leds
+//#define STRIP_TYPE            SK6812_STRIP_RGBW		// SK6812RGBW (NOT SK6812RGB)
+
+#define WIDTH                   16
+#define HEIGHT                  1
+#define LED_COUNT               (WIDTH * HEIGHT)
+
+
+'''
+
 
 
 
