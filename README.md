@@ -1,3 +1,4 @@
+
 # Additional notes
 
 ## Useful tutorial
@@ -11,10 +12,13 @@ Notes from source code main.c
 /*
 	PWM0, which can be set to use GPIOs 12, 18, 40, and 52. 
 	Only 12 (pin 32) and 18 (pin 12) are available on the B+/2B/3B
+	
 	PWM1 which can be set to use GPIOs 13, 19, 41, 45 and 53. 
 	Only 13 is available on the B+/2B/PiZero/3B, on pin 35
+	
 	PCM_DOUT, which can be set to use GPIOs 21 and 31.
 	Only 21 is available on the B+/2B/PiZero/3B, on pin 40.
+	
 	SPI0-MOSI is available on GPIOs 10 and 38.
 	Only GPIO 10 is available on all models.
 
