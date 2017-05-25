@@ -1,6 +1,3 @@
-
-
-
 # Additional notes
 
 ## Useful tutorial
@@ -60,14 +57,11 @@ Perference towards using PCM on GPIO_PIN 21 on pin 40 as does not require blackl
 #define WIDTH                   16
 #define HEIGHT                  1
 #define LED_COUNT               (WIDTH * HEIGHT)
-
-
 ```
 
 ### strandtest.py
 
 ```python
-
 # LED strip configuration:
 LED_COUNT      = 16      # Number of LED pixels.
 LED_PIN        = 21      # GPIO pin connected to the pixels (must support PWM!).
