@@ -63,6 +63,8 @@ Perference towards using PCM on GPIO_PIN 21 on pin 40 as does not require blackl
 
 ### strandtest.py
 
+Set brightness to 20 (low) given powering directly off Raspberry Pi Zero
+
 ```python
 # LED strip configuration:
 LED_COUNT      = 16      # Number of LED pixels.
